@@ -5,6 +5,32 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 
 
+// Wait for the DOM content to load
+document.addEventListener('DOMContentLoaded', () => {
+  // Select the hidden modal element
+  let modal = document.querySelector('.hidden');
+  
+  // Assert that the modal is not null using the Chai assertion library
+  chai.assert.isNotNull(modal, 'Hidden modal not found');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //------------------------------------------------------------------------------
